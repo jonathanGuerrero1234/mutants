@@ -1,0 +1,7 @@
+node_modules/*
+dist/*
+test
+coverage/**
+.scannerwork/*
+.nyc_output/*
+run.js
