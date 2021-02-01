@@ -32,7 +32,7 @@ $ sh install.sh
 ## Ejecucion
 Dentro del repositorio hay una carpeta con el nombre de postman, dentro de esta caperta hay un archivo en formato .json el cual contiene la informacion de los endpoints que ya se encuentran desplegados y listos para usar. se debe importar ese json en postman y empezar a jugar con las Apis!!   :)
 
-## Covertura
+## Cobertura
 Para garantizar la covertura de pruebas unitarias se uso SonarQube.
 Para ver la covertura de cada lambda se debe ejecutar los siguientes scripts
 ```shell script
