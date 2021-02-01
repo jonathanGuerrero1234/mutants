@@ -6,17 +6,15 @@ npm i
 npm run build
 echo 'calculate stats build finish'
 
-cd ..
+
 echo 'find mutant build started'
-cd findMutantLambda/
+cd ../findMutantLambda/
 npm i
 npm run build
 echo 'find mutatn build finished'
 
 echo 'terraform init'
-cd ..
-cd ..
-cd terraform/  
+cd ../../terraform/  
 terraform init 
 terraform plan 
 terraform apply 
