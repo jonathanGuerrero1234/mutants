@@ -1,0 +1,64 @@
+{
+	"info": {
+		"_postman_id": "01aea997-ca11-45d1-88ce-09740825b56c",
+		"name": "Me-Li-Project",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://4swl8p9c2g.execute-api.us-east-2.amazonaws.com/dev/mutant",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \"dna\": [\"ATGCGA\",\"CAGTGC\",\"TTATGT\",\"AGAAGG\",\"CCCCTA\",\"TCACTG\"] }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://4swl8p9c2g.execute-api.us-east-2.amazonaws.com/dev/mutant",
+					"protocol": "https",
+					"host": [
+						"4swl8p9c2g",
+						"execute-api",
+						"us-east-2",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"dev",
+						"mutant"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://4swl8p9c2g.execute-api.us-east-2.amazonaws.com/dev/stats",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://4swl8p9c2g.execute-api.us-east-2.amazonaws.com/dev/stats",
+					"protocol": "https",
+					"host": [
+						"4swl8p9c2g",
+						"execute-api",
+						"us-east-2",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"dev",
+						"stats"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
