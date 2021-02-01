@@ -1,4 +1,4 @@
-# MERCADO LIBRE MUTANTS PROJECT
+# MERCADO LIBRE X-MAN PROJECT
 
 [![xmen](https://assets.entrepreneur.com/content/3x2/2000/20160520193328-xmen.jpeg?width=700&crop=2:1)](https://www.terraform.io)
 
@@ -12,7 +12,7 @@ Necesitas tener instaldo en el computador
 [![typescript](https://img.shields.io/npm/types/typescript)](https://www.typescriptlang.org/)
 [![terraform](https://img.shields.io/badge/terraform%20-%235835CC.svg?&style=for-the-badge&logo=terraform&logoColor=white)](https://www.terraform.io)
 
-## Environment Variables
+## Variables de Entorno
 El proyecto se realizo usando Amazon Web Services, para crear la infraestructura se uso terraform. Para la instalacion es necesario generar desde aws las claves de acceso, adjunto la documentación oficial desde el siguiente enlace [aws](https://docs.aws.amazon.com/powershell/latest/userguide/pstools-appendix-sign-up.html).
 
 Luego de tener las claves de acceso es necesario generar a siguientes variables de entorno.
