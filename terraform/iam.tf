@@ -1,5 +1,5 @@
 resource "aws_iam_role" "lambda_role" {
-  name               = "poc_dynamo_node_lambda_role"
+  name               = "dynamo_node_lambda_role"
   assume_role_policy = <<EOF
 {
   "Version": "2012-10-17",
